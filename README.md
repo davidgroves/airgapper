@@ -15,8 +15,8 @@ The original purpose was to assist with getting debug data from an embedded devi
 `$ cargo build --release` will build a release binary in the `target/release` directory for your host architecture.
 
 The [docker buildx](https://docs.docker.com/reference/cli/docker/buildx/) system allows you to build the binary in a container, and then copies the binary to the [bin](bin) directory.
-It is preset to build two binaries, one for x86_64 but statically linked with (MUSL)[https://www.musl-libc.org/].
-And another that is also crosscompiled for [armv7-unknown-linux-musleabihf[(https://en.wikipedia.org/wiki/ARM7)].
+It is preset to build two binaries, one for x86_64 but statically linked with [MUSL](https://www.musl-libc.org/).
+And another that is also crosscompiled for [armv7-unknown-linux-musleabihf](https://en.wikipedia.org/wiki/ARM7). And 
 
 ```
 $ docker buildx build --target=artifact --output type=local,dest="." .
