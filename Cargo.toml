@@ -1,0 +1,22 @@
+[package]
+name = "airgapper"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.18", features = ["derive"] }
+qrcodegen = "1.8.0"
+
+[[bin]]
+name = "airgapper"
+path = "src/main.rs"
+
+[[bin]]
+name = "airgapper-x86_64"
+path = "src/main.rs"
+test = false
+
+[[bin]]
+name = "airgapper-armv7"
+path = "src/main.rs"
+test = false
