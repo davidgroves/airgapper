@@ -2,9 +2,7 @@
 
 ## Purpose.
 
-AirGapper is a simple command-line tool to generate QR codes of 8bit binary content.
-
-This can be text, binary data or any other 8bit content.
+AirGapper is a simple command-line tool to generate QR codes of UTF-8 text files.
 
 It is designed to get data from a system which is airgapped from the network, or has a display capable of displaying QR codes but no network connection.
 
