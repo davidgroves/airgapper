@@ -43,4 +43,4 @@ Use `-i` to read input from a specified file instead of stdin.
 
 ## Example.
 
-[A screenshotted example](docs/example.png)
+![A screenshotted example](docs/example.png)
