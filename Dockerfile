@@ -1,5 +1,5 @@
 # Build Stage
-FROM rust:1.80.1-alpine AS build
+FROM rust:1.98.1-alpine AS build
 
 WORKDIR /usr/local/src/
 
